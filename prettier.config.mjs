@@ -3,12 +3,12 @@ const config = {
   bracketSpacing: true,
   printWidth: 80,
   singleQuote: false,
-  trailingComma: "none",
+  trailingComma: "es5",
   semi: true,
   tabWidth: 2,
   endOfLine: "auto",
   arrowParens: "always",
-  plugins: ["prettier-plugin-tailwindcss"]
+  plugins: ["prettier-plugin-tailwindcss"],
 };
 
 export default config;
