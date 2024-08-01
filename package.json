@@ -12,6 +12,8 @@
     "format:write": "prettier --write ."
   },
   "dependencies": {
+    "flowbite": "^2.4.1",
+    "flowbite-react": "^0.10.1",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
