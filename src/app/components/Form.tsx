@@ -40,12 +40,6 @@ export const Form = () => {
     }));
   };
 
-  const handleSubmit = () => {
-    if (selectedFile) {
-      console.log(selectedFile);
-    }
-  };
-
   return (
     <div className="mx-auto max-w-md">
       {preview && (
@@ -86,10 +80,7 @@ export const Form = () => {
           className="mt-2 block w-1/2 rounded-lg border border-gray-300 bg-gray-50 p-2 text-sm text-gray-900 focus:outline-none focus:ring focus:ring-slate-500"
         />
 
-        <button
-          onClick={handleSubmit}
-          className="mt-2 rounded-lg bg-rose-600 px-4 py-2 text-white hover:bg-rose-800"
-        >
+        <button className="mt-2 rounded-lg bg-rose-600 px-4 py-2 text-white hover:bg-rose-800">
           Upload
         </button>
       </div>
