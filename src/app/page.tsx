@@ -1,4 +1,5 @@
-import { Feed } from "@/app/components/Feed";
+import { Feed } from "@/components/Feed";
+import { Form } from "@/components/Form";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
         Halarmärken
       </h1>
       <Feed />
+      <Form />
     </main>
   );
 }
