@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { ChangeEvent, useState } from "react";
 
 interface FormData {
@@ -45,7 +46,13 @@ export const Form = () => {
     <div className="mx-auto max-w-md">
       {preview.length && (
         <div className="m-4">
-          <img src={preview} alt="Preview" className="h-1/2 w-1/2 rounded-lg" />
+          <Image
+            src={preview}
+            alt="Preview"
+            height={500}
+            width={500}
+            className="rounded-lg"
+          />
         </div>
       )}
       <input
